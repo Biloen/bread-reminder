@@ -27,21 +27,18 @@ function postToDiscord(webhook) {
 
 
     let sender;
-    fs.readFile("./senders.json","utf8",(err,data) => {
-        const senders = JSON.parse(data);
 
-        sender = senders[Object.keys(senders)[getRandomInt(0,Object.keys(senders).length)].toString()];
-        
-        webhookClient
-        .send({
+    const senders = JSON.parse(core.getInput('characters'));
 
-            username: sender.name.toString(),
-            avatarURL: sender.url.toString(),
-            content: "@everyone " + sender.content.toString(),
-        })
-        .catch(console.error);
+    sender = senders[Object.keys(senders)[getRandomInt(0,Object.keys(senders).length)].toString()];
         
+    webhookClient
+    .send({
+        username: sender.name.toString(),
+        avatarURL: sender.url.toString(),
+        content: "@everyone " + sender.content.toString(),
     })
+    .catch(console.error);
 
 
     
