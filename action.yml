@@ -1,0 +1,9 @@
+name: 'Automate team responsibilities'
+description: 'Automatically determine the responsibilities for a team for a given period, typically a week'
+inputs:
+  discord-webhook:
+    description: 'The Discord webhook that receives the responsibilities'
+    required: false
+runs:
+  using: 'node12'
+  main: 'index.js'

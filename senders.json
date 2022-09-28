@@ -1,0 +1,34 @@
+{
+    "Thor":{
+        "name":"Thor, God of Thunder",
+        "url":"https://i.insider.com/62c7762e99259b00181e6844?width=700",
+        "content":"Alas! The feast has begun!"
+    },
+    "BlackWidow":{
+        "name":"Black Widow",
+        "url":"https://sm.ign.com/ign_nordic/cover/b/black-wido/black-widow_74dg.jpg",
+        "content":"Mission report: Bread"
+    },
+    "Hulk":{
+        "name":"The Hulk",
+        "url":"https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/2800/The-Hulk.The-Incredible-Hulk.webp",
+        "content":"RAWRRRRR BREAD TIME"
+
+    },
+    "PatrickBateman":{
+        "name":"Patrick Bateman",
+        "url":"https://www.slashfilm.com/img/gallery/becoming-american-psychos-patrick-bateman-bordered-on-obsession-for-christian-bale/l-intro-1650720340.jpg",
+        "content": "*murders u* bread time :3"
+    },
+    "Shrek":{
+        "name":"Shrek",
+        "url":"https://www.looper.com/img/gallery/these-things-happen-in-every-single-shrek-movie/l-intro-1655497837.jpg",
+        "content": "WHAT ARE YOU DOING WITH MY BREAD"
+    },
+    "SherlockHolmes":{
+        "name":"Sherlock Holmes",
+        "url":"https://www.timeshighereducation.com/sites/default/files/Pictures/web/j/z/p/benedict-cumberbatch-as-sherlock-holmes.jpg",
+        "content":"Detective case: Find the bread"
+    }
+
+}
