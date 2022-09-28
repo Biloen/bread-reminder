@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const fs = require("fs");
+const core = require('@actions/core');
 
 
 function breakDiscordWebhook(webhook) {
